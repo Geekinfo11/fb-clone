@@ -1,0 +1,20 @@
+.app{
+    background-color: #f6f6f6;
+
+}
+.app_body{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:1490px){
+    .app_body{
+       justify-content: space-between;
+    }
+}
+
+@media(max-width:1300px){
+    .app_body{
+       justify-content: center;
+    }
+}

@@ -1,0 +1,58 @@
+.messagesender{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.messagesender_top{
+    display: flex;
+    flex-direction: row;
+    border-bottom:1px solid #F6F6F6;
+    padding: 20px;
+}
+
+.messagesender_top > form{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.messagesender_top > form > input{
+    border: none;
+    border-radius: 999px;
+    padding: 5px 20px;
+    background-color: #F6F6F6;
+    margin: 0 10px;
+}
+
+.messagesender_input{
+    flex: 1;
+}
+
+.messagesender_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.messagesender_option{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.messagesender_option:hover{
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.messagesender_option > h4{
+    margin-left: 10px;
+}

@@ -1,0 +1,4 @@
+.storywrap{
+    display: flex;
+    flex-direction: row;
+}

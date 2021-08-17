@@ -1,0 +1,39 @@
+.login{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.login_logo{
+    text-align: center;
+}
+
+.login_logo img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.login_text{
+text-align: center;
+}
+
+.login_text img{
+    height: 150px;
+    object-fit: cover;
+    background: transparent;
+}
+
+.login > button {
+    background-color: #1977F3;
+    color: #fff;
+}
+
+.login > button:hover {
+    background-color: #1977F3;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.button_container{
+    background-color: #fff;
+}

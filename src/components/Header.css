@@ -1,0 +1,115 @@
+.header{
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.header_left{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.header_left img{
+    height: 45px;
+    cursor: pointer;
+}
+
+.header_input input{
+    border: none;
+    background-color: transparent;
+}
+
+.header_middle{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header_option > .MuiSvgIcon-root{
+    color: gray;
+}
+
+.header_option:hover > .MuiSvgIcon-root{
+    color: #1977F3;
+
+}
+
+.header_option{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header_option_active > .MuiSvgIcon-root{
+    color: #1977F3;
+}
+
+.header_option_active{
+    border-bottom: 4px solid #1977F3;
+}
+
+@media(max-width:1116px){
+    .header_input input{
+        display: none;
+    }
+    .header_input:hover > input{
+        display: block;
+        max-width: 100px;
+    }
+    .header_info > .MuiAvatar-root {
+       display: none;
+    }
+    .header_info > * {
+        display: none;
+     }
+    
+}
+
+@media  (max-width:885px){
+    .header_middle{
+        display: none;
+    }
+    .header_input:hover > input{
+        max-width: 300px;
+    }
+}
+
+.header_option:hover{
+    background-color: #f6f6f6;
+    border-radius: 20px;
+    border: none;
+}
+
+.header_right{
+    display: flex;
+    flex-direction: row;
+}
+
+.header_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_info h4{
+    margin-left: 10px;
+}
